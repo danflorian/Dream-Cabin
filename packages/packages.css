@@ -76,11 +76,11 @@ main {
   clear: both;
 }
 
-#plus {
+#pack-1 {
   background: #bffffcb9;
 }
 
-#free {
+#pack-2 {
   background: #bffffcb9;
   float: right;
   border-right: none;
@@ -88,20 +88,20 @@ main {
   text-align: right;
 }
 
-#free:hover,
-#free:active {
+#pack-2:hover,
+#pack-2:active {
   border-left-color: #ff5454;
 }
 
-#premium {
+#pack-3 {
   background: #107e78bb;
 }
 
-#premium .package__title {
+#pack-3 .package__title {
   color: white;
 }
 
-#premium .package__subtitle {
+#pack-3 .package__subtitle {
   color: #bbb;
 }
 
@@ -118,12 +118,12 @@ main {
     border-left: 4px solid #0e4f1f;
   }
 
-  #free {
+  #pack-2 {
     border-right: 4px solid #0e4f1f;
   }
 
-  #free:hover,
-  #free:active {
+  #pack-2:hover,
+  #pack-2:active {
     border-right-color: #ff5454;
   }
 }
